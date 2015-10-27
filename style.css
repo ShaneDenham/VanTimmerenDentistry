@@ -1,0 +1,204 @@
+/*
+ Theme Name:   VanTimmerenDentistry
+ Description:  Van Timmeren Family Dentistry Website
+ Author:       Shane Denham
+ Author URI:   http://shanedenham.info/
+ Template:     JointsWP-master
+*/
+
+/****** Custom Over-rides ******/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+/* Header */
+.contain-to-grid, .top-bar, .top-bar.expanded, .top-bar-section ul li, .top-bar.expanded .title-area {
+	background: #FFF;
+}
+
+.top-bar {
+	height: 80px;
+}
+
+.top-bar-section>ul>.divider, .top-bar-section>ul>[role=separator] {
+	border: none;
+}
+
+.top-bar-section ul li > a, .top-bar-section li:not(.has-form) a:not(.button) {
+	background: #FFF;
+	color: #000;
+	height: 80px;
+	line-height: 80px;
+	transition: all 0.5s;
+}
+
+
+/* Home Page Static Image and Hero Text */
+.overlay {
+	position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: transparent; background: rgba(0, 0, 0 , 0.4);
+}
+
+.hero-text {
+	margin-top: 150px;
+}
+
+.hero-text h2 {
+	color: #FFF;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.hero-text h3 {
+	color: #5dc4ef;
+}
+
+.hero-text p {
+	color: #FFF;
+	font-size: 18px;
+}
+
+.hero-btn {
+	font-size: 28px;
+    font-weight: 300;
+    padding: 4px 12px;
+    background: transparent;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
+
+.hero-btn:hover {
+	background: transparent;
+	color: #5dc4ef;
+    border: 1px solid #5dc4ef;
+}
+
+
+/* Sections */
+#content section {
+	padding: 50px 0 0;
+}
+
+#content section .row {
+	padding-bottom: 60px;
+}
+
+#content section .row .row:last-child {
+	padding-bottom: 0;
+}
+
+#content section h2 {
+	color: #5dc4ef;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content section h3 {
+	font-size: 18px;
+    font-weight: 600;
+}
+
+#content section hr {
+	width: 100px;
+    border-width: 1px;
+    text-align: center;
+    margin: auto;
+}
+
+#content section p {
+	font-size: 14px;
+	color: #6b6b6b;
+}
+
+
+/* Services Section */
+#services-section {
+	background: #f4f7f9;
+}
+
+#services-section p {
+	color: #4d606e;
+}
+
+.service h3, .service p {
+	padding-left: 60px;
+}
+
+.service span {
+	float: left;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #5dc4ef;
+    color: #5dc4ef;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+}
+
+
+/* Latest Blogs Section */
+#lastest-blogs-section .post {
+	padding: 0 30px;
+}
+
+
+/* Footer */
+.footer {
+	background: #5dc4ef;
+	color: #FFF;
+	padding: 80px 0 10px;
+}
+
+.footer h3 {
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.footer ul {
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+
+
+/* Fonts */
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?gn92rl');
+	src:url('fonts/icomoon.eot?gn92rl#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?gn92rl') format('truetype'),
+		url('fonts/icomoon.woff?gn92rl') format('woff'),
+		url('fonts/icomoon.svg?gn92rl#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edit:before {
+	content: "\e900";
+}
+.icon-feather:before {
+	content: "\e901";
+}
+.icon-megaphone:before {
+	content: "\e902";
+}
+
+
