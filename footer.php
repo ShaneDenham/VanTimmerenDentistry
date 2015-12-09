@@ -8,6 +8,7 @@
 		    				<div class="medium-6 columns">
 		    					<div class="row">
 		    						<div class="medium-4 columns">
+		    							<span class="icon-location-pin"></span>
 		    							<h3>Office</h3>
 		    						</div>
 		    						<div class="medium-8 columns">
@@ -22,10 +23,11 @@
 		    				</div>
 		    				<div class="medium-6 columns">
 		    					<div class="row">
-		    						<div class="medium-4 columns">
+		    						<div class="medium-5 columns">
+		    							<span class="icon-mail"></span>
 		    							<h3>Contact</h3>
 		    						</div>
-		    						<div class="medium-8 columns">
+		    						<div class="medium-7 columns">
 		    							<ul>
 		    								<li>Questions? Comments?</li>
 		    								<li>Scheduling: 616-538-1050</li>

@@ -1,5 +1,6 @@
 <?php
 
+// Enqueue Stylesheets
 function theme_enqueue_styles() {
 
     $parent_style = 'parent-style';
@@ -12,5 +13,29 @@ function theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+
+
+// Register Sidebars
+if ( function_exists ('register_sidebar')) {
+    register_sidebar(array(
+		'id' => 'blog',
+		'name' => __('Blog', 'jointstheme'),
+		'description' => __('The blog sidebar.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+
+	register_sidebar(array(
+		'id' => 'services',
+		'name' => __('Services', 'jointstheme'),
+		'description' => __('The blog services pages.', 'jointstheme'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+}
 
 ?>

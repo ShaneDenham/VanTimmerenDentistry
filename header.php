@@ -48,7 +48,7 @@
 					</header> <!-- end .header -->
 
 					<?php if(is_front_page()) : ?>
-						<div class="static-image" style="display: block; width:100%; height:500px; background-image: url('<?php echo get_stylesheet_directory_uri() ?>/images/top-static-image-home.jpg'); position: relative;">
+						<div class="static-image" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/images/top-static-image-home.jpg');">
 							<div class="overlay"></div>
 							<div id="content">
 								<div class="row">
@@ -63,4 +63,20 @@
 								</div>
 							</div>
 						</div>
+
+					<?php elseif(is_page() || is_single()) : ?>
+
+						<div class="page-subheader">
+							<div id="content">
+								<div class="row">
+									<div class="medium-6 columns">
+										<h3>A Dental Home For Your Family</h3>
+									</div>
+									<div class="medium-6 columns text-right">
+										<p>Call Us! 616.538.1050</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					<?php endif ?>

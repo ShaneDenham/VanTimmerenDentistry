@@ -11,8 +11,14 @@
   					</div>
   					<div class="row">
 						<div class="large-4 columns service experience">
-							<span class="icon-edit"></span>
-							<h3>Experience</h3>
+							<a href="<?php echo esc_url( home_url( '/our-staff/' ) ); ?>">
+								<span class="icon-edit"></span>
+							</a>
+							<h3>
+								<a href="<?php echo esc_url( home_url( '/our-staff/' ) ); ?>">
+									Experience
+								</a>
+							</h3>
 							<p>
 								With over 200 years of combined experience in dentistry,
 								you can feel confident that your oral health is our top priority.
@@ -23,8 +29,14 @@
 							</p>
 						</div>
 	  					<div class="large-4 columns service comfort">
-							<span class="icon-feather"></span>
-							<h3>Comfort</h3>
+							<a href="<?php echo esc_url( home_url( '/dental-services/' ) ); ?>">
+								<span class="icon-feather"></span>
+							</a>
+							<h3>
+								<a href="<?php echo esc_url( home_url( '/dental-services/' ) ); ?>">
+									Comfort
+								</a>
+							</h3>
 							<p>
 								Going to the dentist doesn’t need to be stressful.
 								We offer blankets and neck pillows to help make your visit as relaxing as possible.
@@ -35,8 +47,14 @@
 							</p>
 						</div>
 	  					<div class="large-4 columns service technology">
-							<span class="icon-megaphone"></span>
-							<h3>Technology</h3>
+							<a href="<?php echo esc_url( home_url( '/dental-services/' ) ); ?>">
+								<span class="icon-megaphone"></span>
+							</a>
+							<h3>
+								<a href="<?php echo esc_url( home_url( '/dental-services/' ) ); ?>">
+									Technology
+								</a>
+							</h3>
 							<p>
 								We are always looking to adopt new technologies and methods as they become available,
 								and our staff is specially trained to use them.
@@ -85,7 +103,10 @@
 
 					</div>
 				</section>
-
 			</div> <!-- end #content -->
+			<section id="google-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.454057986367!2d-85.73135268467237!3d42.88436597915522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819b0e11c1ffe11%3A0x5adcbc11d9f1c1ed!2s2620+44th+St+SW%2C+Wyoming%2C+MI+49519!5e0!3m2!1sen!2sus!4v1446229693505" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			</section>
 
 <?php get_footer(); ?>
