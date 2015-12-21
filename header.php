@@ -48,7 +48,8 @@
 					</header> <!-- end .header -->
 
 					<?php if(is_front_page()) : ?>
-						<div class="static-image" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/images/top-static-image-home.jpg');">
+						<?php echo do_shortcode("[huge_it_slider id='2']"); ?>
+						<div class="static-image" >
 							<div class="overlay"></div>
 							<div id="content">
 								<div class="row">
