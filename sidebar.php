@@ -8,11 +8,35 @@
 
 		<?php endif; ?>
 
+	<?php elseif ( is_page( 'new-patients' ) || '25' == $post->post_parent ) : ?>
+
+		<?php if ( is_active_sidebar( 'new-patients' ) ) : ?>
+
+			<?php dynamic_sidebar( 'new-patients' ); ?>
+
+		<?php endif; ?>
+
 	<?php elseif ( is_page( 'dental-services' ) || '27' == $post->post_parent ) : ?>
 
 		<?php if ( is_active_sidebar( 'services' ) ) : ?>
 
 			<?php dynamic_sidebar( 'services' ); ?>
+
+		<?php endif; ?>
+
+	<?php elseif ( is_page( 'payment-and-insurance' ) || '29' == $post->post_parent ) : ?>
+
+		<?php if ( is_active_sidebar( 'payment' ) ) : ?>
+
+			<?php dynamic_sidebar( 'payment' ); ?>
+
+		<?php endif; ?>
+
+	<?php elseif ( is_page( 'our-staff' ) || '31' == $post->post_parent ) : ?>
+
+		<?php if ( is_active_sidebar( 'staff' ) ) : ?>
+
+			<?php dynamic_sidebar( 'staff' ); ?>
 
 		<?php endif; ?>
 

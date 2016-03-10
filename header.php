@@ -57,7 +57,7 @@
 										<h2>A Dental Home<br><strong>For Your Family</strong></h2>
 										<h3>We Are Dedicated To Your Health</h3>
 										<p>Call Us! 616.538.1050</p>
-										<a href="#" class="button hero-btn">Contact Us</a>
+										<a href="<?php echo site_url(); ?>/contact-us/" class="button hero-btn">Contact Us</a>
 
 									</div>
 								</div>

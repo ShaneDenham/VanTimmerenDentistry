@@ -212,7 +212,7 @@ small {
 }
 
 
-
+/* Subheader on inner pages */
 .page-subheader {
 	padding: 20px 0;
     background: #222;
@@ -232,6 +232,23 @@ small {
     margin: 0;
 }
 
+
+/* Sidebar */
+.menu li {
+	border-bottom: 3px solid #f4f7f9;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
+
+.menu li a {
+	font-size: 14px;
+}
+
+
+/* Layout Hacks */
+#inner-content {
+	min-height: 30em;
+}
 
 
 /* Font Icons */
